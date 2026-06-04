@@ -86,10 +86,10 @@
       padding: 15px;
       border-radius: 5px;
     }
-    .blinking-heading {
-         
-            animation: blinker 1s linear infinite;
-        }
+   .blinking-heading {
+    animation: blinker 1s steps(1, start) infinite;
+}
+
     @keyframes blinker {
             50% {
                 opacity: 0;
